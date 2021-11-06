@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2? family= Fruktur & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Dongle:wght@300 & family= Fruktur & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Danse+Script & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Red+Hat+Mono:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@200 & display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fruktur', monospace;
+}
+
+nav {
+    display: flex
+}
+
+nav {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav {
+    border-bottom: 7px solid #520d0d
+}
+
+nav h1 {
+    color: #520d0d;
+    font-family: Fruktur;
+    font-size: 40px;
+}
+
+nav .onglets {
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: #000
+}
+
+nav .onglets a {
+    padding-bottom: 5px;
+    margin-right: 10px;
+    border-bottom: 1px solid #000
+}
+
+header {
+    background-size: cover;
+    color: red;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('pizzabackground.jpg')
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: 'Pacifico', serif;
+    color: rgb(82, 17, 17)
+}
+
+header h4 {
+    border-bottom: 1px solid rgb(89, 136, 197);
+    margin-top: -20px;
+    text-align: center;
+    font-family: 'Pacifico', serif;
+    color: cadetblue;
+    font-size: 30px;
+}
+
+header button {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: bisque;
+    color: #000;
+    font-family: 'Red+Hat+Mono'
+}
+
+.main {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .content .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.main .content .card .left {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: burlywood;
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #520d0d
+}
+
+.main .content .card.right {
+    flex: 0 0 70%;
+}
+
+.main .content .card .right img {
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #520d0d;
+    color: burlywood;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin-top: 40px;
+    padding: 30px 100px;
+    border-top: 10px solid #520d0d
+}
+
+footer h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid burlywood;
+    width: 19%;
+    padding-bottom: 4px;
+}
+
+footer .services {
+    display: flex;
+    margin-top: -10px;
+    flex-wrap: wrap;
+}
+
+footer .services .service {
+    margin-right: 30px;
+    padding: 10px;
+}
+
+footer .services .service p {
+    max-width: 280px;
+}
+
+footer #Contact {
+    color: #000
+}
+
+@media screen and (max-width: 680px) {
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    .main .card {
+        margin: 10px;
+    }
+    .main .content .card .right img {
+        height: 200px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .main .content .card {
+        display: block;
+    }
+    footer {
+        padding: 30px;
+    }
+}
